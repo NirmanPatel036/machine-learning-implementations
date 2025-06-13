@@ -200,13 +200,6 @@ This project is ideal for:
 - **Algorithm Implementation**: From-scratch coding experience
 - **Interactive Learning**: Real-time experimentation
 
-## Browser Compatibility
-
-- Chrome 60+
-- Firefox 55+
-- Safari 12+
-- Edge 79+
-
 ## Performance
 
 - **Python Training**: ~1000 epochs in seconds

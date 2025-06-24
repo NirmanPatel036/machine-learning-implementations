@@ -1,11 +1,11 @@
 # Stock Market Portfolio Optimization
 
+![yfinance](https://img.shields.io/badge/yfinance-0.2%2B-purple.svg)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![NumPy](https://img.shields.io/badge/NumPy-1.20%2B-orange.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-green.svg)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4%2B-red.svg)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.11%2B-yellow.svg)
-![yfinance](https://img.shields.io/badge/yfinance-0.2%2B-purple.svg)
 
 A comprehensive Python implementation of Modern Portfolio Theory for optimal portfolio construction using Indian stock market data. This project analyzes historical stock performance, calculates risk-return metrics, and identifies the optimal portfolio allocation using the Sharpe ratio maximization approach.
 

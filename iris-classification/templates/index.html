@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Iris Classifier 🌸</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f5f7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 90%;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 0.6rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    input[type="submit"] {
+      width: 100%;
+      background: #4CAF50;
+      color: white;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    input[type="submit"]:hover {
+      background: #45a049;
+    }
+    .result {
+      text-align: center;
+      margin-top: 1rem;
+      padding: 0.5rem;
+      background-color: #eafbea;
+      border: 1px solid #a5d6a7;
+      border-radius: 6px;
+      font-weight: bold;
+      color: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Iris Flower Classifier 🌼</h2>
+    <form action="/predict" method="post">
+      <input type="text" name="sepal_length" placeholder="Sepal Length (cm)" required>
+      <input type="text" name="sepal_width" placeholder="Sepal Width (cm)" required>
+      <input type="text" name="petal_length" placeholder="Petal Length (cm)" required>
+      <input type="text" name="petal_width" placeholder="Petal Width (cm)" required>
+      <input type="submit" value="Predict">
+    </form>
+
+      <div class="result">
+        🌿 Predicted Class: <strong>{{ prediction }}</strong>
+      </div>
+  </div>
+</body>
+</html>
